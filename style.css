@@ -1,0 +1,51 @@
+
+body{
+    background-image: linear-gradient(#e8bcb9, #f39f5a, #ae445a, #662549, #451952, #1d1a39);
+    background-repeat: no-repeat;
+    height: 100vh;  
+    overflow: hidden;
+}
+
+
+#container{
+    height: 100vh;
+    margin: 0px;
+    padding: 0%;
+    
+}
+
+#temple_div{
+    width: auto;
+    height: 70%;
+    margin: 0%;
+    padding: 0% ;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: 30%;
+    justify-content: center;
+}
+
+#temple{
+    height: 110%;
+}
+
+#ram_div{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    position: absolute;
+    justify-content: center;
+    margin-left: 45%;
+    /* margin-top: 10%; */
+    margin-top: 24%;
+    
+    visibility: hidden;
+    transition: 2s ;
+    
+    filter: drop-shadow(5px 5px 10px #ebde20);
+}
+#ram{
+    height:21rem;
+}
